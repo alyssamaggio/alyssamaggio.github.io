@@ -1,15 +1,48 @@
 body {
-    background-color: pink;
+    background-color: rgb(222, 255, 224);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    display:grid;grid-template-columns: 414px,2fr,1fr;
+    
 } 
+
+
 
 @font-face {
     font-family: "perfect";
     src: url("Perfect-Regular.woff");
 }
 
+
+
 h1{
     font-family: "perfect";
-    font-size: 100px;
-    letter-spacing: 5px;
+    font-size: 35px;
+    letter-spacing: 0px;
+    color: rgb(19, 102, 88);
+
+    
+   
 }
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    grid-area: 1fr;
+    color: blue;
+
+    
+
+   
+}
+
+h3{
+    font-family: "perfect";
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: rgb(19, 102, 88);
+    text-align: center;
+   
+}
+
