@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
-  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-  <script src="aframe-ar.js"></script>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="aframe-ar.js"></script>
+  </head>
   <body>
     <a-scene embedded arjs environment="#env" vr-mode-ui="enabled: false">
       <a-assets>
@@ -41,57 +43,39 @@
       https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
      -->
 
-     <!-- !!! Only 1 Marker but lots of assets inside it !!! -->
+     <!-- !!! MARKER 1 !!! -->
 
       <a-marker type='pattern' url='pattern-marker4562.patt' smooth="true">
 
         <!-- This is the object <a-object> 
           Edit size, position, texture and animation here -->
 
-          <a-marker type='pattern' url='pattern-marker4562.patt' smooth="true">
-
-            <a-sphere
-            radius="0.8"
-            position= "0 0.5 0"
-            src="sky.jpeg"
-            env-map="#env"
-            metalness="0.9"
-            roughness="0.1"                  
+          <a-box 
+          width="3.2"
+          height="6"
+          depth="0.2"
+          position="0 0.3 0" 
+          rotation="-90  0 0"               
+          src="Josh.jpg"
+          transparent="true"
+          alphaTest= "0.5"
+          env-map="#env"
+          metalness="1.0"
+          roughness="0.0" 
             animation="
-             property: rotation; 
-             from: 0 0 0; 
-             to: 0 360 0; 
-             easing: linear; 
-             dur: 10000; 
-             loop:true"
-              >                  
-            </a-sphere>
+          property: rotation; 
+          from: 0 0 0; 
+          to: 0 360 0; 
+          easing: linear; 
+          dur: 10000; 
+          loop:true"      
+          >                 
+     </a-box>
 
-        <!-- !!! Do not remove Marker 1 !!! -->
-      </a-marker>   
+        <!-- !!! END MARKER 1 !!! -->
+      </a-marker>
       
       
-      <!-- <a-box 
-      width="3.2"
-      height="6"
-      depth="0.2"
-      position="0 0.3 0" 
-      rotation="-90  0 0"               
-      src="Josh.jpg"
-      transparent="true"
-      alphaTest= "0.5"
-      env-map="#env"
-      metalness="1.0"
-      roughness="0.0" 
-        animation="
-      property: rotation; 
-      from: 0 0 0; 
-      to: 0 360 0; 
-      easing: linear; 
-      dur: 10000; 
-      loop:true"      
-      >                 
- </a-box> -->
 
      
 
