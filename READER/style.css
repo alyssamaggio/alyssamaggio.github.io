@@ -10,14 +10,14 @@ body {
 
 
 @font-face {
-    font-family: "EXETEGUE";
+    font-family: "exet";
     src: url('Desktop/DPUB/alyssamaggio.github.io/READER/Exetegue-Bold.woff');
 }
 
 
 
 h1{
-    font-family: "EXETEGUE";
+    font-family: "exet";
     font-size: 35px;
     letter-spacing: 0px;
     color: rgb(255, 255, 255);
