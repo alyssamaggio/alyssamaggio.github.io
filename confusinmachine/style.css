@@ -1,0 +1,109 @@
+body{
+    background-color: white;
+    margin:0px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+video.webcam {
+    width:25%;
+  /*  This height will make it responsive to the screen height  */
+    height:50vh;
+    /*  this is similar to background size or feel free to remove this extra line*/
+    object-fit:cover;
+    justify-content: left;
+  }
+
+div.container {
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 0.9;
+    
+}
+
+.circle {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; margin:50px;
+   
+box-shadow:inset 0px 0px 30px 30px white;
+    background-image:url(skin1.jpg);
+  background-repeat:no-repeat;
+/*  try cover or contain or remove this line all together  similar to fit frame in indesign */
+  background-size:cover;
+/*   try top right, center center, center, bottom left */
+  background-position:center;
+  
+    
+     }
+
+
+     
+img{
+    width: 100%;
+}
+div.row {
+    display:flex;
+    flex-wrap: wrap;
+}
+div.col{
+    outline: 2px solid blue;
+    height: 400px;
+   }
+
+
+div.width100{
+    width:100%;
+}
+
+div.width80{
+    width:80%;
+}
+
+div.width75{
+    width:75%;
+}
+
+div.wdith66{
+    width: 66.666%;
+}
+
+div.width60{
+    width:60%;
+}
+
+div.width50{
+    width:50%;
+}
+
+div.width40{
+    width:40%;
+}
+
+div.width33 {
+width:33.333%;
+font-size: 20px;
+text-align: top;
+text-align: right;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+div.width{
+    width:25%;
+}
+
+div.width20{
+width:20%;
+}
+
+
+    
+
+
