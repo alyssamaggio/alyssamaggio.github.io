@@ -8,28 +8,48 @@ body{
 
 
 div.colwidth75 {
-    font-size: 100px;
+    font-size: 70px;
     font-weight: bold;
     line-height: 0.9;
     width:75%;
     outline: 2px blue;
     font-family: Arial, Helvetica, sans-serif;
     
+}
 
-    
+
+span.one {
+    color: black;
+}
+
+span.two  {
+    color: white;
+}
+
+span.two:hover{
+    color: black;
+}
+
+div.container:hover {
+    color:white
+
 }
 
 div.colwidth25 {
     font-size: 100px;
     font-weight: bold;
-    line-height: 0.9;
-    width:75%;
     outline: 2px blue;
     font-family: Arial, Helvetica, sans-serif;
-    transform: rotate(90deg);
-    align-items: right;
-
+    transform: rotate(90deg) translateY(-174%);
+    transform-origin: top left;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-bottom: 20px;
 }
+
+
+
 
 
 .circle {
