@@ -20,6 +20,8 @@ div.title1 {
     
 }
 
+
+
 div.title2 {
     font-size: 100px;
     font-weight: bold;
@@ -32,6 +34,12 @@ div.title2 {
     right: 0;
     margin-bottom: 20px;
 }
+div.intro {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
 
 
 span.one {
@@ -46,46 +54,30 @@ span.two:hover{
     color: black;
 }
 
-
-
-
-
-
-
-.circle {
-    width: 600px;
-    height: 600px;
-    border-radius: 50%;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; margin:50px;
-   
-box-shadow:inset 0px 0px 30px 30px white;
-    background-image:url(skin1.jpg);
-  background-repeat:no-repeat;
-/*  try cover or contain or remove this line all together  similar to fit frame in indesign */
-  background-size:cover;
-/*   try top right, center center, center, bottom left */
-  background-position:center;
-  
+div.words {
+    font-size: 11px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif
     
-     }
+}
+
+
+
+
+
+
 
 
      
 img{
     width: 100%;
+    display: block;
 }
 div.row {
     display:flex;
     flex-wrap: wrap;
 }
-div.col{
-    /* outline: 2px solid blue; */
 
-   }
 div.text {
     padding-top:300px ;
 }
@@ -118,28 +110,27 @@ div.width40{
     width:40%;
 }
 
-div.width33 {
-width:33.333%;
-font-size: 20px;
-text-align: top;
-text-align: right;
-font-family: 'Times New Roman', Times, serif;
-box-shadow:inset 0px 0px 30px 30px white;
-    background-image:url(skin1.jpg);
-  background-repeat:no-repeat;
-/*  try cover or contain or remove this line all together  similar to fit frame in indesign */
-  background-size:cover;
-/*   try top right, center center, center, bottom left */
-  background-position:center;
 
-}
 
 div.width{
     width:25%;
+    
 }
 
-div.width20{
+div.face{
 width:20%;
+background-size: cover;
+}
+
+div.red{
+    width: 20%;
+    background-color: rgb(9, 126, 75);
+   
+}
+
+div.letter {
+    font-size: 100px;
+    width: 10%;
 }
 
 
